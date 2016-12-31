@@ -5,7 +5,7 @@ League of Legends lookup
 
     python lol.py summoner_name
 
-    expected return :
+    expected results :
 
 Looking up information for summoner : summoner_name
 
