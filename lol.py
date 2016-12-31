@@ -44,8 +44,8 @@ def summoner_rank():
     fq = results[summoner_id][1]['queue']
     fqt = results[summoner_id][1]['tier']
     fqd = results[summoner_id][1]['entries'][0]['division']
-    #print "This shitter is %s %s in %s" % (sqt, sqd, sq)
-    #print "This shitter is %s %s in %s" % (fqt, fqd, fq)
+    print "This shitter is %s %s in %s" % (sqt, sqd, sq)
+    print "This shitter is %s %s in %s" % (fqt, fqd, fq)
     return (sq, sqt, sqd, fq, fqt, fqd)
 
 def print_func():
@@ -56,10 +56,10 @@ print "Looking up information for summoner : %s" % summoner_name
 print "\n"
 #print_goodies()
 
-print_func()
+#print_func()
+summoner_rank()
 
-
-print "This shitter is %s %s in %s" % (self.sqt, sqd, sq)
-print "This shitter is %s %s in %s" % (fqt, fqd, fq)
+#print "This shitter is %s %s in %s" % (self.sqt, sqd, sq)
+#print "This shitter is %s %s in %s" % (fqt, fqd, fq)
 
 #walkdict(results)
