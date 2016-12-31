@@ -7,10 +7,10 @@ League of Legends lookup
 
     expected return :
 
-Looking up information for summoner : XYZ
-
+Looking up information for summoner : summoner_name
 
 This shitter is SILVER II in RANKED_SOLO_5x5
+
 This shitter is SILVER V in RANKED_FLEX_SR
 
 
